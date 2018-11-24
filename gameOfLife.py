@@ -8,7 +8,7 @@ pygame.init()
  
 fpsClock = pygame.time.Clock()
 TILESIZE = 1
-width, height = 400, 400
+width, height = 100, 100
 screen = pygame.display.set_mode((width * TILESIZE, height * TILESIZE))
 pygame.display.set_caption('Game of Life')
 #Constants
